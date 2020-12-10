@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div .a {
+            margin-top: 10px;
+            margin-left: 10px;
+            text-align: right;
+            width: 320px;
+            height: 30px;
+        }
+        div .b {
+            height: 44px;
+            width: 67px;
+            color: blue;
+            margin-top: 36px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 350px ; height: 400px ; border: 2px solid black">
+        <input id="tien"  class="a" type="text" placeholder="0"><br>
+    <div style="width: 350px ; height: 355px; margin: 10px 10px 10px 10px ;">
+        <input id="so1" class="b" type="button" value="1" onclick="tien.value+=this.value">
+        <input id="so2" class="b" type="button" value="2" onclick="tien.value+=this.value">
+        <input id="so3" class="b" type="button" value="3" onclick="tien.value+=this.value">
+        <input id="cong" class="b" type="button" value="+" onclick="tien.value+=this.value">
+        <input id="so4" class="b" type="button" value="4" onclick="tien.value+=this.value">
+        <input id="so5" class="b" type="button" value="5" onclick="tien.value+=this.value">
+        <input id="so6" class="b" type="button" value="6" onclick="tien.value+=this.value">
+        <input id="tru" class="b" type="button" value="-" onclick="tien.value+=this.value">
+        <input id="so7" class="b" type="button" value="7" onclick="tien.value+=this.value">
+        <input id="so8" class="b" type="button" value="8" onclick="tien.value+=this.value">
+        <input id="so9" class="b" type="button" value="9" onclick="tien.value+=this.value">
+        <input id="nhan" class="b" type="button" value="*" onclick="tien.value+=this.value">
+        <input id="xoa" class="b" type="button" value="C" onclick="tien.value=''">
+        <input id="so0" class="b" type="button" value="0" onclick="tien.value+=this.value">
+        <input id="bang" class="b" type="button" value="=" onclick="tien.value=eval(tien.value)">
+        <input id="chia" class="b" type="button" value="/" onclick="tien.value+=this.value">
+    </div>
+    </div>
+</body>
+</html>
